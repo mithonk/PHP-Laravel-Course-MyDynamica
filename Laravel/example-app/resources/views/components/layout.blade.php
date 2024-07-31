@@ -16,7 +16,18 @@
             <td width="20%">
                 <x-nav />
             </td>
-            <td>{{$slot}}</td>
+            <td>
+                <!-- {{request()->is('/')}} -->
+                <!-- {{request()->host('')}} -->
+                <!-- {{true}} -->
+
+                {{request()->host('')}}
+                <br />
+                {{request()->httpHost('')}}
+                <br />
+                {{request()->schemeAndHttpHost('')}}
+                {{$slot}}
+            </td>
         </tr>
         <tr height="100" style="background-color: #ccc;">
             <td colspan="2">Footer</td>
