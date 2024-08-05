@@ -1,3 +1,3 @@
 <x-layout>
-    <p>Welcome Home Page</p>
+    <h1>Welcome Home Page</h1>
 </x-layout>

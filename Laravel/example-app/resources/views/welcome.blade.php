@@ -1,5 +1,15 @@
 <x-layout>
-    <p>Welcome Home Page</p>
+    <h1>Welcome Home Page</h1>
+    <h1 class="name1">Mithursan</h1>
+    <h1 id="name2">Mithursan</h1>
+    <h1 style="color: red">Mithursan</h1>
+
+    <div class="spinner-border" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+
+    <button type="button" class="btn btn-primary">Click Here</button>
+    
     @foreach ($data2 as $m)
         {{$m}}
     @endforeach
@@ -17,6 +27,7 @@
         </tr>
     
     @endforeach
+
 </table>
     
 
