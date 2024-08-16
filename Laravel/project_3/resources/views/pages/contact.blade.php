@@ -1,29 +1,30 @@
 <x-layout>
-        <!-- Breadcrumb  -->
-        <section>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <!-- Breadcrumb -->
-                        <ul class="breadcrumbs bg-light mb-4">
-                            <li class="breadcrumbs__item">
-                                <a href="index.html" class="breadcrumbs__url">
-                                    <i class="fa fa-home"></i> Home</a>
-                            </li>
-                            <li class="breadcrumbs__item">
-                                <a href="index.html" class="breadcrumbs__url">News</a>
-                            </li>
-                            <li class="breadcrumbs__item breadcrumbs__item--current">
-                                World
-                            </li>
-                        </ul>
-                    </div>
+    <!-- Breadcrumb  -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- Breadcrumb -->
+                    <ul class="breadcrumbs bg-light mb-4">
+                        <li class="breadcrumbs__item">
+                            <a href="/index" class="breadcrumbs__url">
+                                <i class="fa fa-home"></i> Home</a>
+                        </li>
+                        <li class="breadcrumbs__item">
+                            <a href="/index" class="breadcrumbs__url">News</a>
+                        </li>
+                        <li class="breadcrumbs__item breadcrumbs__item--current">
+                            World
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </section>
-        <!-- Breadcrumb  -->
-
-            <!-- Form contact -->
+        </div>
+    </section>
+    <!-- Breadcrumb  -->
+    
+    
+    <!-- Form contact -->
     <section class="wrap__contact-form">
         <div class="container">
             <div class="row">
@@ -34,29 +35,29 @@
                             <div class="form-group form-group-name">
                                 <label>Your name <span class="required"></span></label>
                                 <input type="text" class="form-control" name="name" required="">
-
+    
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group form-group-name">
                                 <label>Your email <span class="required"></span></label>
                                 <input type="email" class="form-control" name="email" required="">
-
+    
                             </div>
                         </div>
-
+    
                         <div class="col-md-6">
                             <div class="form-group form-group-name">
                                 <label>website <span class="required"></span></label>
                                 <input type="text" class="form-control" name="website" required="">
-
+    
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group form-group-name">
                                 <label>Subject <span class="required"></span></label>
                                 <input type="text" class="form-control" name="subject" required="">
-
+    
                             </div>
                         </div>
                         <div class="col-md-12">
@@ -70,7 +71,7 @@
                         </div>
                     </div>
                 </div>
-
+    
                 <div class="col-md-4">
                     <h5>Info location</h5>
                     <div class="wrap__contact-form-office">
@@ -79,25 +80,25 @@
                                 <span>
                                     <i class="fa fa-home"></i>
                                 </span>
-
+    
                                 PO Box 16122 Collins Street West Victoria
                                 8007 Australia
-
-
+    
+    
                             </li>
                             <li>
                                 <span>
                                     <i class="fa fa-phone"></i>
                                     <a href="tel:">(+12) 34567 890 123</a>
                                 </span>
-
+    
                             </li>
                             <li>
                                 <span>
                                     <i class="fa fa-envelope"></i>
                                     <a href="mailto:">mail@example.com</a>
                                 </span>
-
+    
                             </li>
                             <li>
                                 <span>
@@ -106,11 +107,11 @@
                                 </span>
                             </li>
                         </ul>
-
+    
                         <div class="social__media">
                             <h5>find us</h5>
                             <ul class="list-inline">
-
+    
                                 <li class="list-inline-item">
                                     <a href="#" class="btn btn-social rounded text-white facebook">
                                         <i class="fa fa-facebook"></i>
@@ -144,4 +145,4 @@
         </div>
     </section>
     <!-- End Form contact  -->
-</x-layout>
+    </x-layout>

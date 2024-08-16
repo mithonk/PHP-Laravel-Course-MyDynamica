@@ -1,5 +1,4 @@
 <x-layout>
-    
     <section>
         <div class="container">
             <div class="row">
@@ -19,12 +18,10 @@
                         </li>
                     </ul>
                     <!-- End breadcrumb -->
-
                     <div class="wrap__about-us">
                         <h2>Our Mission</h2>
                         <h4>It is a long established fact that a reader will be distracted</h4>
                         <p>
-
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                             been
                             the industry's standard dummy text ever since the 1500s, when an unknown printer took a
@@ -38,9 +35,8 @@
                             of
                             Lorem Ipsum.
                         </p>
-
                         <figure class="float-left mr-3">
-                            <img src="images/newsimage1.png" alt="" class="img-fluid">
+                            <img src="{{Vite::asset('resources/images/newsimage1.png')}}" alt="" class="img-fluid">
                         </figure>
                         <p>
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
@@ -54,12 +50,7 @@
                             passages, and more recently with desktop publishing software like Aldus PageMaker including
                             versions of Lorem Ipsum.
                         </p>
-
-
-
-
                         <p>
-
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                             been
                             the industry's standard dummy text ever since the 1500s, when an unknown printer took a
@@ -78,7 +69,7 @@
                         <!-- team member -->
                         <div class="team-member row">
                             <div class="col-md-4 col-xl-3">
-                                <figure class="member"> <img src="images/newsimage2.png" class="img-fluid" alt="Image">
+                                <figure class="member"> <img src="{{Vite::asset('resources/images/newsimage2.png')}}" class="img-fluid" alt="Image">
                                     <figcaption>
                                         <h4>Debora Hilton</h4>
                                         <small>Editor</small>
@@ -97,7 +88,7 @@
                                 </figure>
                             </div>
                             <div class="col-md-4 col-xl-3">
-                                <figure class="member"> <img src="images/newsimage3.png" class="img-fluid" alt="Image">
+                                <figure class="member"> <img src="{{Vite::asset('resources/images/newsimage3.png')}}" class="img-fluid" alt="Image">
                                     <figcaption>
                                         <h4>Debora Hilton</h4>
                                         <small>Editor</small>
@@ -116,7 +107,7 @@
                                 </figure>
                             </div>
                             <div class="col-md-4 col-xl-3">
-                                <figure class="member"> <img src="images/newsimage4.png" class="img-fluid" alt="Image">
+                                <figure class="member"> <img src="{{Vite::asset('resources/images/newsimage4.png')}}" class="img-fluid" alt="Image">
                                     <figcaption>
                                         <h4>Debora Hilton</h4>
                                         <small>Publisher</small>
@@ -135,7 +126,7 @@
                                 </figure>
                             </div>
                             <div class="col-md-4 col-xl-3">
-                                <figure class="member"> <img src="images/newsimage5.png" class="img-fluid" alt="Image">
+                                <figure class="member"> <img src="{{Vite::asset('resources/images/newsimage5.png')}}" class="img-fluid" alt="Image">
                                     <figcaption>
                                         <h4>Debora Hilton</h4>
                                         <small>Project Manager</small>
@@ -163,11 +154,8 @@
                             passages, and more recently with desktop publishing software like Aldus PageMaker including
                             versions of Lorem Ipsum.
                         </p>
-
                     </div>
                 </div>
-
-
             </div>
         </div>
     </section>

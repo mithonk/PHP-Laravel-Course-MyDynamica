@@ -57,7 +57,7 @@
                                 <div class="article__entry">
                                     <div class="article__image">
                                         <a href="#">
-                                            <img src="images/newsimage1.png" alt="" class="img-fluid">
+                                            <img src="{{Vite::asset('resources/images/newsimage1.png')}}" alt="" class="img-fluid">
                                         </a>
                                     </div>
                                     <div class="article__content">
@@ -94,7 +94,7 @@
                                 <div class="article__entry">
                                     <div class="article__image">
                                         <a href="#">
-                                            <img src="images/newsimage2.png" alt="" class="img-fluid">
+                                            <img src="{{Vite::asset('resources/images/newsimage2.png')}}" alt="" class="img-fluid">
                                         </a>
                                     </div>
                                     <div class="article__content">
@@ -131,7 +131,7 @@
                                 <div class="article__entry">
                                     <div class="article__image">
                                         <a href="#">
-                                            <img src="images/newsimage3.png" alt="" class="img-fluid">
+                                            <img src="{{Vite::asset('resources/images/newsimage3.png')}}" alt="" class="img-fluid">
                                         </a>
                                     </div>
                                     <div class="article__content">
@@ -168,7 +168,7 @@
                                 <div class="article__entry">
                                     <div class="article__image">
                                         <a href="#">
-                                            <img src="images/newsimage4.png" alt="" class="img-fluid">
+                                            <img src="{{Vite::asset('resources/images/newsimage4.png')}}" alt="" class="img-fluid">
                                         </a>
                                     </div>
                                     <div class="article__content">
@@ -207,7 +207,7 @@
                                 <div class="article__entry">
                                     <div class="article__image">
                                         <a href="#">
-                                            <img src="images/news5.jpg" alt="" class="img-fluid">
+                                            <img src="{{Vite::asset('resources/images/news5.jpg')}}" alt="" class="img-fluid">
                                         </a>
                                     </div>
                                     <div class="article__content">
@@ -244,7 +244,7 @@
                                 <div class="article__entry">
                                     <div class="article__image">
                                         <a href="#">
-                                            <img src="images/news5.jpg" alt="" class="img-fluid">
+                                            <img src="{{Vite::asset('resources/images/news5.jpg')}}" alt="" class="img-fluid">
                                         </a>
                                     </div>
                                     <div class="article__content">
@@ -281,7 +281,7 @@
                                 <div class="article__entry">
                                     <div class="article__image">
                                         <a href="#">
-                                            <img src="images/newsimage7.png" alt="" class="img-fluid">
+                                            <img src="{{Vite::asset('resources/images/newsimage7.png')}}" alt="" class="img-fluid">
                                         </a>
                                     </div>
                                     <div class="article__content">
@@ -318,7 +318,7 @@
                                 <div class="article__entry">
                                     <div class="article__image">
                                         <a href="#">
-                                            <img src="images/newsimage8.png" alt="" class="img-fluid">
+                                            <img src="{{Vite::asset('resources/images/newsimage8.png')}}" alt="" class="img-fluid">
                                         </a>
                                     </div>
                                     <div class="article__content">
@@ -368,7 +368,7 @@
                                     <div class="card__post card__post-list">
                                         <div class="image-sm">
                                             <a href="./card-article-detail-v1.html">
-                                                <img src="images/news1.jpg" class="img-fluid" alt="">
+                                                <img src="{{Vite::asset('resources/images/news1.jpg')}}" class="img-fluid" alt="">
                                             </a>
                                         </div>
 
@@ -407,7 +407,7 @@
                                     <div class="card__post card__post-list">
                                         <div class="image-sm">
                                             <a href="./card-article-detail-v1.html">
-                                                <img src="images/news2.jpg" class="img-fluid" alt="">
+                                                <img src="{{Vite::asset('resources/images/news2.jpg')}}" class="img-fluid" alt="">
                                             </a>
                                         </div>
 
@@ -446,7 +446,7 @@
                                     <div class="card__post card__post-list">
                                         <div class="image-sm">
                                             <a href="./card-article-detail-v1.html">
-                                                <img src="images/news3.jpg" class="img-fluid" alt="">
+                                                <img src="{{Vite::asset('resources/images/news3.jpg')}}" class="img-fluid" alt="">
                                             </a>
                                         </div>
 
@@ -484,7 +484,7 @@
                                 <div class="article__entry">
                                     <div class="article__image">
                                         <a href="#">
-                                            <img src="images/newsimage4.png" alt="" class="img-fluid">
+                                            <img src="{{Vite::asset('resources/images/newsimage4.png')}}" alt="" class="img-fluid">
                                         </a>
                                     </div>
                                     <div class="article__content">
@@ -626,7 +626,7 @@
                             <h4 class="border_section">Advertise</h4>
                             <a href="#">
                                 <figure>
-                                    <img src="images/newsimage1.png" alt="" class="img-fluid">
+                                    <img src="{{Vite::asset('resources/images/newsimage1.png')}}" alt="" class="img-fluid">
                                 </figure>
                             </a>
                         </aside>
@@ -669,12 +669,11 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="large_add_banner_img">
-                            <img src="images/placeholder_large.jpg" alt="adds">
+                            <img src="{{Vite::asset('resources/images/placeholder_large.jpg')}}" alt="adds">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
 </x-layout>
